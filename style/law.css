@@ -1,0 +1,233 @@
+/*公共部分*/
+body {
+    font-family: "微软雅黑","宋体","Arial Narrow";
+    background: url(../pic/body_bg.png);
+}
+
+a:link {
+    color: #666;
+}
+a:visited {}
+a:hover {
+    color: #d11f13;
+}
+a:active {}
+
+.mg0_5 {
+    margin: 0 4px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {*zoom:1;}
+
+/*topBar部分css*/
+
+.topBar {
+    height: 34px;
+    background: url(../pic/topBar_bg.png) repeat-x;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.topBarCon {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.leftTopCon {
+    float: left;
+    background: url(../pic/logo.png) no-repeat;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    height: 34px;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.rightTopCon {
+    float: right;
+    margin-right: 24px;
+}
+
+
+.rightTopCon li{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+}
+
+.rightTopCon li a:link{
+    color: #000;
+}
+
+.rightTopCon li a:hover{
+    color: #d11f13;
+}
+
+.rightTopCon li a{
+    display: block;
+}
+
+/*container部分*/
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 34px;
+}
+
+.topCon h1{
+    font:0/0 '微软雅黑';
+}
+
+/**/
+.mainContainer{
+    width: 990px;
+    margin: 0 auto;
+    border-left: 5px solid #ae7d45;
+    border-right: 5px solid #ae7d45;
+    background: #fdf6ed;
+    position: relative;
+}
+/*活动介绍部分*/
+
+.intro h2{
+    background: url("../pic/title_1.png") no-repeat scroll center 50px transparent;
+    display: block;
+    height: 100px;
+    font:0/0 '微软雅黑';
+}
+
+.intro p {
+    padding: 45px 58px 39px 58px;
+    font-size: 14px;
+    line-height: 36px;
+    color: #666;
+}
+.intro a{
+    color: #854323;
+}
+
+/*活动流程部分*/
+
+.procedures h2{
+    background: url("../pic/title_2.png") no-repeat scroll center 50px transparent;
+    display: block;
+    height: 100px;
+    font:0/0 '微软雅黑';
+}
+
+.procedures ol {
+    padding: 45px 58px 44px;
+    font-size: 14px;
+    line-height: 36px;
+    color: #666;
+}
+
+.form{
+    width: 374px;
+    margin: 0 auto;
+}
+
+.form a{
+    display: block;
+    height: 36px;
+    width: 148px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.register{
+    float: left;
+    border: 1px solid #998600;
+    background: url(../pic/register_bg.png) repeat-x;
+}
+
+.land{
+    float: right;
+    border: 1px solid #328514;
+    background: url(../pic/land_bg.png) repeat-x;
+}
+/**/
+.show {
+    margin-top: 67px;
+}
+
+.show h2{
+    background: url("../pic/title_3.png") no-repeat scroll center 50px transparent;
+    display: block;
+    height: 100px;
+    font:0/0 '微软雅黑';
+}
+
+.showL{
+    float: left;
+    width: 704px;
+    padding: 57px 40px 0 32px;
+}
+
+.showR{
+    float: right;
+    width: 172px;
+    border-left: 2px solid #ae7d45;
+    padding: 12px 20px 0 20px;
+    color: #666;
+    line-height: 30px;
+}
+
+.showR h4{
+    color: #ae7d45;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.showReg{
+    width: 150px;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.showReg a{
+    display: block;
+    height: 36px;
+    width: 148px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.showL li{
+    padding-bottom: 32px;
+    border-bottom: 1px dashed #666;
+    height: 140px;
+    width: 240px;
+}
+
+.show_list_img {
+    float: left;
+}
+
+.show_list_detail{
+    float: left;
+    width: 110px;
+    margin-left: 10px;
+}
