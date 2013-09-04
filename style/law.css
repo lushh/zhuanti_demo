@@ -2,16 +2,17 @@
 body {
     font-family: "微软雅黑","宋体","Arial Narrow";
     background: url(../pic/body_bg.png);
+    _background-attachment:fixed;
 }
 
 a:link {
     color: #666;
 }
-a:visited {}
+a:visited {color: #666;}
 a:hover {
     color: #d11f13;
 }
-a:active {}
+a:active {color: #666;}
 
 .mg0_5 {
     margin: 0 4px;
@@ -34,8 +35,11 @@ a:active {}
     background: url(../pic/topBar_bg.png) repeat-x;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 999;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop));
 }
 
 .topBarCon {
@@ -53,6 +57,10 @@ a:active {}
     line-height: 30px;
     padding-left: 30px;
     margin-left: 30px;
+}
+
+.leftTopCon:hover{
+    color: #d11f13;
 }
 
 .rightTopCon {
@@ -101,16 +109,23 @@ a:active {}
     position: relative;
 }
 /*活动介绍部分*/
-
+.intro{
+    padding-top: 50px;
+}
 .intro h2{
-    background: url("../pic/title_1.png") no-repeat scroll center 50px transparent;
+    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
     display: block;
-    height: 100px;
-    font:0/0 '微软雅黑';
+    color: #854323;
+    font-family: "隶书";
+    font-size: 42px;
+    text-align: center;
+    height: 50px;
+    line-height: 48px;
+    _position: relative;
 }
 
 .intro p {
-    padding: 45px 58px 39px 58px;
+    padding: 71px 58px 27px;
     font-size: 14px;
     line-height: 36px;
     color: #666;
@@ -121,15 +136,24 @@ a:active {}
 
 /*活动流程部分*/
 
+.procedures{
+    padding-top: 59px;
+}
+
 .procedures h2{
-    background: url("../pic/title_2.png") no-repeat scroll center 50px transparent;
+    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
     display: block;
-    height: 100px;
-    font:0/0 '微软雅黑';
+    color: #854323;
+    font-family: "隶书";
+    font-size: 42px;
+    text-align: center;
+    height: 50px;
+    line-height: 48px;
+    _position: relative;
 }
 
 .procedures ol {
-    padding: 45px 58px 44px;
+    padding: 74px 58px 44px;
     font-size: 14px;
     line-height: 36px;
     color: #666;
@@ -147,9 +171,25 @@ a:active {}
     line-height: 36px;
     text-align: center;
     border-radius: 3px;
-    color: #fff;
     font-size: 18px;
+
+}
+
+.form a:link{
+    color: #fff;
+}
+
+.form a:visited{
+    color: #fff;
+}
+
+.form a:hover{
+    color: #fff;
     text-decoration: none;
+}
+
+.form a:active{
+    color: #fff;
 }
 
 .register{
@@ -163,29 +203,36 @@ a:active {}
     border: 1px solid #328514;
     background: url(../pic/land_bg.png) repeat-x;
 }
-/**/
+/*show部分*/
 .show {
-    margin-top: 67px;
+    margin-top: 117px;
+    border-bottom: 2px solid #ae7d45;
 }
 
 .show h2{
-    background: url("../pic/title_3.png") no-repeat scroll center 50px transparent;
+    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
     display: block;
-    height: 100px;
-    font:0/0 '微软雅黑';
+    color: #854323;
+    font-family: "隶书";
+    font-size: 42px;
+    text-align: center;
+    height: 50px;
+    line-height: 48px;
+    _position: relative;
 }
 
 .showL{
     float: left;
-    width: 704px;
-    padding: 57px 40px 0 32px;
+    width: 720px;
+    padding: 49px 24px 124px 32px;
+    border-right: 2px solid #ae7d45;
+    padding-bottom: 124px;
 }
 
 .showR{
     float: right;
     width: 172px;
-    border-left: 2px solid #ae7d45;
-    padding: 12px 20px 0 20px;
+    padding: 28px 20px 0;
     color: #666;
     line-height: 30px;
 }
@@ -209,17 +256,34 @@ a:active {}
     line-height: 36px;
     text-align: center;
     border-radius: 3px;
-    color: #fff;
     font-size: 18px;
-    text-decoration: none;
     margin-bottom: 20px;
+}
+
+.showReg a:link{
+    color: #fff;
+}
+
+.showReg a:visited{
+    color: #fff;
+}
+
+.showReg a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.showReg a:active{
+    color: #fff;
 }
 
 .showL li{
     padding-bottom: 32px;
-    border-bottom: 1px dashed #666;
+    border-bottom: 1px dashed #b1aca5;
     height: 140px;
     width: 240px;
+    float: left;
+    padding-top: 32px;
 }
 
 .show_list_img {
@@ -230,4 +294,194 @@ a:active {}
     float: left;
     width: 110px;
     margin-left: 10px;
+    line-height: 19px;
+}
+
+.show_list_detail div{
+    position: relative;
+    top: 6px;
+    color: #8f9095;
+    display: inline;
+    float: right;
+    *top:-13px;
+}
+
+.show_list_detail span{
+    color: #b7283a;
+}
+
+.show_list_detail a{
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+
+
+.show_list_detail a.vote{
+    display: inline;
+    padding: 2px 6px;
+    border: 1px solid #989898;
+    color: #000;
+    border-radius: 2px;
+    position: relative;
+    top: 6px;
+    font-weight: 700;
+    background: #e2e2e2
+}
+
+/*story部分*/
+
+.slideTxtBox{ width: 100%;
+    text-align:left;  }
+.slideTxtBox .hd{ height: 49px; line-height: 49px; background: #f1ebe4; padding:0 20px;
+    position:relative; }
+.slideTxtBox .hd ul{ float:left; position:absolute; left: 24px; top:-1px; height: 49px;   }
+.slideTxtBox .hd ul li{ float:left; padding: 0 11px 21px 17px; cursor:pointer;
+    font-family: "隶书";
+    font-size: 30px;
+    color: #302f2e;
+    letter-spacing: 4px;
+}
+.slideTxtBox .hd ul li.on{
+    height: 49px;
+    background: url(../pic/tabOn_bg.gif);
+    color: #FEdcac;
+}
+.slideTxtBox .bd ul{ padding:15px;  zoom:1;  }
+.slideTxtBox .bd li{
+    padding-bottom: 32px;
+    border-bottom: 1px dashed #b1aca5;
+    height: 140px;
+    width: 240px;
+    float: left;
+    padding-top: 38px;
+}
+.slideTxtBox .bd li .date{ float:right; color:#999;  }
+
+/*合作媒体部分*/
+
+.media {
+    margin-top: 117px;
+    border-bottom: 2px solid #d5d0ca;
+}
+
+.media h2{
+    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
+    display: block;
+    color: #854323;
+    font-family: "隶书";
+    font-size: 42px;
+    text-align: center;
+    height: 50px;
+    line-height: 48px;
+    _position: relative;
+}
+
+.media ul{
+    line-height: 30px;
+    margin: 54px 75px 104px 73px;
+    *margin: 54px 75px 0 73px;
+    *padding-bottom: 104px;
+}
+
+.media li{
+    float: left;
+    color: #999;
+}
+
+.media li a:link{
+    color: #999;
+}
+
+.media li a:visited{
+    color: #999;
+}
+
+.media li a:hover{
+    color: #d11f13;
+}
+
+.media li a:active{
+    color: #999;
+}
+
+
+
+.media li a:hover{
+    color: #d11f13;
+}
+
+/*foot*/
+
+.foot{
+    width: 595px;
+    margin: 0 auto;
+}
+
+/*浮动部分*/
+
+.float{
+    position: fixed;
+    width: 177px;
+    height: 367px;
+    background: url(../pic/float_bg.gif) no-repeat;
+    right: 1%;
+    bottom: 50px;
+    _position:absolute;
+    _margin-bottom:50px;
+    _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+
+.float ul{
+    margin-top: 67px;
+}
+
+.float li{
+    width: 100%;
+    height: 46px;
+    font-family: "方正舒体";
+    font-size: 24px;
+    text-align: center;
+    background: url(../pic/float_li_bg.gif) no-repeat center bottom;
+    line-height: 40px;
+}
+
+.float a.top{
+    display: block;
+    background: #573721;
+    width: 67px;
+    height: 21px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 21px;
+    margin: 20px auto 0 auto;
+    color: #c0a376;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.float li a:link{
+    color: #401c0a;
+}
+
+.float li a:visited{
+    color: #401c0a;
+}
+
+.float li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/**/
+.h2_title{
+    height: 25px;
+    border-bottom: 2px solid #ae7d45;
+    _overflow: hidden;
 }
