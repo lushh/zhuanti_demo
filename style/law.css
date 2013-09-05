@@ -113,7 +113,7 @@ a:active {color: #666;}
     padding-top: 50px;
 }
 .intro h2{
-    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
+    background: url("../pic/title_1.png") no-repeat scroll center 0 transparent;
     display: block;
     color: #854323;
     font-family: "隶书";
@@ -121,6 +121,7 @@ a:active {color: #666;}
     text-align: center;
     height: 50px;
     line-height: 48px;
+    text-indent: -9999px;
     _position: relative;
 }
 
@@ -141,7 +142,8 @@ a:active {color: #666;}
 }
 
 .procedures h2{
-    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
+    background: url("../pic/title_2.png") no-repeat scroll center 0 transparent;
+    text-indent: -9999px;
     display: block;
     color: #854323;
     font-family: "隶书";
@@ -210,7 +212,8 @@ a:active {color: #666;}
 }
 
 .show h2{
-    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
+    background: url("../pic/title_3.png") no-repeat scroll center 0 transparent;
+    text-indent: -9999px;
     display: block;
     color: #854323;
     font-family: "隶书";
@@ -247,6 +250,7 @@ a:active {color: #666;}
     width: 150px;
     height: 100%;
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 .showReg a{
@@ -366,7 +370,8 @@ a:active {color: #666;}
 }
 
 .media h2{
-    background: url("../pic/title.png") no-repeat scroll center 0 transparent;
+    background: url("../pic/title_4.png") no-repeat scroll center 0 transparent;
+    text-indent: -9999px;
     display: block;
     color: #854323;
     font-family: "隶书";
@@ -380,13 +385,15 @@ a:active {color: #666;}
 .media ul{
     line-height: 30px;
     margin: 54px 75px 104px 73px;
-    *margin: 54px 75px 0 73px;
+    margin: 54px 58px 104px 73px\9;
+    *margin: 54px 58px 0 73px;
     *padding-bottom: 104px;
 }
 
 .media li{
     float: left;
     color: #999;
+    white-space:nowrap;
 }
 
 .media li a:link{
@@ -404,8 +411,6 @@ a:active {color: #666;}
 .media li a:active{
     color: #999;
 }
-
-
 
 .media li a:hover{
     color: #d11f13;

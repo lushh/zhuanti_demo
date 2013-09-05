@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/law_demo.html" changelist="3725e289-27c8-4fa9-87e7-32b1c79c8735" time="1378286203929" ignored="false" />
     <file path="/dummy.xml" changelist="3725e289-27c8-4fa9-87e7-32b1c79c8735" time="1378278700143" ignored="false" />
-    <file path="/law.css" changelist="3725e289-27c8-4fa9-87e7-32b1c79c8735" time="1378289280902" ignored="false" />
+    <file path="/law.css" changelist="3725e289-27c8-4fa9-87e7-32b1c79c8735" time="1378349652160" ignored="false" />
     <file path="/law.js" changelist="3725e289-27c8-4fa9-87e7-32b1c79c8735" time="1378261214915" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +30,8 @@
       <file leaf-file-name="law_demo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/law_demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="16" selection-start="1374" selection-end="1380" vertical-scroll-proportion="-4.8431373">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#9;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#10;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#11;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="4" column="58" selection-start="305" selection-end="305" vertical-scroll-proportion="-2.6153846">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,10 +39,10 @@
       <file leaf-file-name="law.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/law.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="395" column="38" selection-start="6449" selection-end="6449" vertical-scroll-proportion="0.46255508">
+            <state line="395" column="23" selection-start="6582" selection-end="6582" vertical-scroll-proportion="0.5330396">
               <folding>
-                <marker date="1378289306511" expanded="true" signature="656:696" placeholder="{...}" />
-                <marker date="1378289306511" expanded="true" signature="6884:7075" placeholder="{...}" />
+                <marker date="1378349717428" expanded="true" signature="656:696" placeholder="{...}" />
+                <marker date="1378349717428" expanded="true" signature="7077:7268" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,9 +61,7 @@
         <entry file="file://$PROJECT_DIR$/js/law.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc;n#PageObj#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +80,7 @@
         <option value="$PROJECT_DIR$/js/law.js" />
         <option value="$PROJECT_DIR$/s.html" />
         <option value="$PROJECT_DIR$/law_demo.html" />
+        <option value="$PROJECT_DIR$/f.html" />
         <option value="$PROJECT_DIR$/style/law.css" />
       </list>
     </option>
@@ -123,6 +117,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,7 +180,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,14 +187,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -328,12 +322,38 @@
     <entry file="file://$PROJECT_DIR$/law_demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/law.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="395" column="38" selection-start="6449" selection-end="6449" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#9;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#10;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#11;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1378349717428" expanded="true" signature="656:696" placeholder="{...}" />
+            <marker date="1378349717428" expanded="true" signature="7077:7268" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="28" selection-start="1722" selection-end="1723" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/law.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/law_demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -341,8 +361,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="215" column="1" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378289306511" expanded="true" signature="656:696" placeholder="{...}" />
-            <marker date="1378289306511" expanded="true" signature="6884:7075" placeholder="{...}" />
+            <marker date="1378349717428" expanded="true" signature="656:696" placeholder="{...}" />
+            <marker date="1378349717428" expanded="true" signature="7077:7268" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -357,37 +377,14 @@
     <entry file="file://$PROJECT_DIR$/js/law.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc;n#PageObj#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/law.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="19" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc;n#PageObj#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/law_demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="16" selection-start="1374" selection-end="1380" vertical-scroll-proportion="-4.8431373">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#9;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#10;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#11;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,12 +395,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/law_demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="58" selection-start="305" selection-end="305" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/law.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="38" selection-start="6449" selection-end="6449" vertical-scroll-proportion="0.46255508">
+        <state line="395" column="23" selection-start="6582" selection-end="6582" vertical-scroll-proportion="0.5330396">
           <folding>
-            <marker date="1378289306511" expanded="true" signature="656:696" placeholder="{...}" />
-            <marker date="1378289306511" expanded="true" signature="6884:7075" placeholder="{...}" />
+            <marker date="1378349717428" expanded="true" signature="656:696" placeholder="{...}" />
+            <marker date="1378349717428" expanded="true" signature="7077:7268" placeholder="{...}" />
           </folding>
         </state>
       </provider>
